@@ -59,4 +59,8 @@ window.onload = function(){
     window.addEventListener("shake", function(){
         if(!spinning) spin();
     }, false)
+
+    roulette.addEventListener("touchmove", function(){
+        if(!spinning) spin();
+    }, false)
 }
